@@ -30,3 +30,23 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 // export const app = initializeApp(firebaseConfig);
+
+
+import { getStorage, ref } from "firebase/storage";
+
+// const storage = getStorage();
+
+// Get a reference to the Firebase Storage service
+var storage = firebase.storage();
+
+// Get a reference to the file input element
+var fileInput = document.getElementById('/storage/images/LEEM_NEW.png');
+
+// Get the selected file from the file input element
+var file = fileInput.files[0];
+
+// Create a storage reference with the storage location
+var storageRef = storage.ref('images/' + file.name);
+
+// Upload the file to Firebase Storage
+var task = storageRef.put(file);
