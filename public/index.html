@@ -34,9 +34,18 @@
           console.error(error);
         }, function() {
           console.log('File uploaded successfully!');
+          uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+            console.log('File uploaded successfully!');
+            console.log('Download URL:', downloadURL);
+      
+            // Set the source of the image tag to the download URL
+            var uploadedImage = document.getElementById('uploaded-image');
+            uploadedImage.src = downloadURL;
+          });
         });
       }
     </script>
     <button onclick="uploadFile()">Upload File</button>
+    <img id="uploaded-image" src="" alt="">
   </body>
 </html>
