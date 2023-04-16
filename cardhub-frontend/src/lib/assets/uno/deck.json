@@ -1,0 +1,47 @@
+{
+    "deck_type": "uno",
+    "cards": [
+        {
+            "card": {
+                "template": "uno",
+                "card_type": "number",
+                "properties": {
+                    "text": "7",
+                    "color": "red"
+                }
+            }
+        },
+        {
+            "card": {
+                "template": "uno",
+                "card_type": "number",
+                "properties": {
+                    "text": "2",
+                    "color": "black"
+                }
+            }
+        },
+        {
+            "card": {
+                "template": "uno",
+                "card_type": "hybrid",
+                "properties": {
+                    "text": "+4",
+                    "color": "blue",
+                    "image": "reverse.svg"
+                }
+            }
+        },
+        {
+            "card": {
+                "template": "uno",
+                "card_type": "special",
+                "properties": {
+                    "color": "blue",
+                    "image": "reverse.svg"
+                }
+            }
+        }
+    ]
+    
+}

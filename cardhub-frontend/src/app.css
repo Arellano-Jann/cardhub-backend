@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --black: #0C0809;
+    --red: #C10A0A;
+    --grey: #4A483E;
+    --light-grey: #B8BFA8;
+    --white: #fff;
+    --global-bg-color: #373737;
+}
+
+html {
+    background-color: var(--global-bg-color);
+    color: var(--white);
+}

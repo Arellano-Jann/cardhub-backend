@@ -1,0 +1,54 @@
+{
+    "deck_type": "playing_cards",
+    "back_card": {
+        "card": {
+            "template": "full-image",
+            "card_type": null,
+            "properties": {
+                "image": "src/lib/assets/playing_cards/playing_card_back.png"
+                },
+            "dimensions": [125, 175]
+        }
+    },
+    "cards": [
+        {
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "A",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": null
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "7",
+                    "color": "red",
+                    "small_image": "src/lib/assets/Card_spade.svg",
+                    "image": null
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "card": {
+                "template": "playing_cards",
+                "card_type": "face",
+                "properties": {
+                    "text": "Q",
+                    "color": "red",
+                    "small_image": "hearts.svg",
+                    "image": "red_queen_hearts.svg"
+                }
+            }
+        }
+    ]
+    
+}

@@ -1,0 +1,106 @@
+{
+    "decks": [
+        {
+            "deck_type": "cards_against_humanity",
+            "cards": [
+                {
+                    "card": {
+                        "template": "cards_against_humanity",
+                        "type": "question",
+                        "properties": {
+                            "text": "TSA guidelines now prohibit _________ on airplanes."
+                        
+                        },
+                        "dimensions": [127, 176]
+                    }
+                },
+                {
+                    "card": {
+                        "template": "cards_against_humanity",
+                        "type": "answer",
+                        "properties": {
+                            "text": "COVID-19."
+                        }
+                        ,
+                        "dimensions": [127, 176]
+                    }
+                },
+                {
+                    "card": {
+                        "type": "answer",
+                        "properties": {
+                            "text": "Doing crimes."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "deck_type": "playing_cards",
+            "cards": [
+                {
+                    "card": {
+                        "template": "playing_cards",
+                        "type": "number",
+                        "properties": {
+                            "text": "7",
+                            "color": "red",
+                            "small_image": "src/lib/assets/Card_spade.svg",
+	"image": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2FiYjMyM2JkZjQ4NmUyYjI2NzMyYTIwYmY0YTdkZTAzZjc3MDIwYiZjdD1n/Ju7l5y9osyymQ/giphy.gif"
+                        },
+                        "dimensions": [125, 175]
+                    }
+                },
+                {
+                    "card": {
+                        "template": "playing_cards",
+                        "type": "face",
+                        "properties": {
+                            "text": "Q",
+                            "color": "red",
+                            "small_image": "hearts.svg",
+                            "image": "red_queen_hearts.svg"
+                        }
+                    }
+                }
+            ]
+            
+        },
+        
+        {
+            "deck_type": "uno",
+            "cards": [
+                {
+                    "card": {
+                        "type": "number",
+                        "properties": {
+                            "text": "7",
+                            "color": "red"
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "type": "hybrid",
+                        "properties": {
+                            "text": "+4",
+                            "color": "green",
+                            "image": "plus_four.svg"
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "type": "special",
+                        "properties": {
+                            "color": "blue",
+                            "image": "reverse.svg"
+                        }
+                    }
+                }
+            ]
+            
+        }
+    ]
+}

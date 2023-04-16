@@ -1,0 +1,2 @@
+question, White people like _.
+answer, Racism.
