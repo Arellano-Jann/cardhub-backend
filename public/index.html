@@ -1,4 +1,4 @@
-
+<!--
 <html>
   <head>
     <title>My Web Application</title>
@@ -18,18 +18,18 @@
         messagingSenderId: "255952821694",
         appId: "1:255952821694:web:13d0e9a60f251ddd336def",
         measurementId: "G-47J21435HD",
-        databaseURL: "https://DATABASE_NAME.firebaseio.com",
+        databaseURL: "https://cardhub-backend-default-rtdb.firebaseio.com/",
       };
 
       const app = firebase.initializeApp(firebaseConfig);
       const storage = firebase.storage();
       const database = firebase.getDatabase(app);
-      
+
       function uploadFile() {
         console.log();
         var file = document.getElementById('file-input').files[0];
-        var storageRef = storage.ref().child('images/' + file.name);
-        var uploadTask = storageRef.put(file);
+        var storageRef = storage.ref().child('images/' + file.name);//keep this
+        var uploadTask = storageRef.put(file);//testing
 
         uploadTask.on('state_changed', function(snapshot) {
           var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
@@ -46,8 +46,36 @@
           });
         });
       }
+      function writeDeckData() {
+        const db = getDatabase();
+        set(ref(db, 'decks/' + deckId), {
+          deckname: name,
+          deck_picture : imageUrl
+        });
+      }
     </script>
     <button onclick="uploadFile()">Upload File</button>
     <img id="uploaded-image" src="" alt="">
+  </body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Application</title>
+  </head>
+  <body>
+    <input type="file" id="file-input">
+    <button onclick="uploadFile()">Upload File</button>
+    <img id="uploaded-image" src="" alt="">
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- Include firebase-storage for storage, and firebase-database for realtime database -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
