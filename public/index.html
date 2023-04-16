@@ -7,6 +7,8 @@
     <input type="file" id="file-input">
     <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js"></script>
     <script type="text/javascript">
       const firebaseConfig = {
         apiKey: "AIzaSyDmxG4o79Bvz8IfVJo2rKXIxMcV-08KCAQ",
@@ -15,12 +17,14 @@
         storageBucket: "cardhub-backend.appspot.com",
         messagingSenderId: "255952821694",
         appId: "1:255952821694:web:13d0e9a60f251ddd336def",
-        measurementId: "G-47J21435HD"
+        measurementId: "G-47J21435HD",
+        databaseURL: "https://DATABASE_NAME.firebaseio.com",
       };
 
       const app = firebase.initializeApp(firebaseConfig);
       const storage = firebase.storage();
-
+      const database = firebase.getDatabase(app);
+      
       function uploadFile() {
         console.log();
         var file = document.getElementById('file-input').files[0];
@@ -37,8 +41,6 @@
           uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
             console.log('File uploaded successfully!');
             console.log('Download URL:', downloadURL);
-      
-            // Set the source of the image tag to the download URL
             var uploadedImage = document.getElementById('uploaded-image');
             uploadedImage.src = downloadURL;
           });
