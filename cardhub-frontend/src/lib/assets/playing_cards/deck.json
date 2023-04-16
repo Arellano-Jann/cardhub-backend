@@ -1,5 +1,9 @@
 {
     "deck_type": "playing_cards",
+    "display-properties": {
+        "name": "52-Card Deck",
+        "description": "A standard deck of playing cards used to play many games such as poker and solitaire."
+    },
     "back_card": {
         "card": {
             "template": "full-image",
@@ -10,8 +14,9 @@
             "dimensions": [125, 175]
         }
     },
-    "cards": [
+    "cards-quantities": [
         {
+            "quantity": 1,
             "card": {
                 "template": "playing_cards",
                 "card_type": "number",
@@ -19,34 +24,784 @@
                     "text": "A",
                     "color": "black",
                     "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
-                    "image": null
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
                 },
                 "dimensions": [125, 175]
             }
         },
         {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "2",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "3",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "4",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "5",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "6",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "7",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "8",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "9",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "10",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "J",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "Q",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "K",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/spade.svg",
+                    "image": "src/lib/assets/playing_cards/suits/spade.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "A",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "2",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "3",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "4",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "5",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "6",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
             "card": {
                 "template": "playing_cards",
                 "card_type": "number",
                 "properties": {
                     "text": "7",
                     "color": "red",
-                    "small_image": "src/lib/assets/Card_spade.svg",
-                    "image": null
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
                 },
                 "dimensions": [125, 175]
             }
         },
         {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "8",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "9",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "10",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "J",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "Q",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "K",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
             "card": {
                 "template": "playing_cards",
                 "card_type": "face",
                 "properties": {
                     "text": "Q",
                     "color": "red",
-                    "small_image": "hearts.svg",
-                    "image": "red_queen_hearts.svg"
-                }
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        }
+        ,
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "face",
+                "properties": {
+                    "text": "K",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/heart.svg",
+                    "image": "src/lib/assets/playing_cards/suits/heart.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "A",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "2",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "3",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "4",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "5",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "6",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "7",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "8",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "9",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "10",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "J",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "Q",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "K",
+                    "color": "black",
+                    "small_image": "src/lib/assets/playing_cards/suits/club.svg",
+                    "image": "src/lib/assets/playing_cards/suits/club.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "A",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "2",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "3",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "4",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "5",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "6",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "7",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "8",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "9",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "10",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "J",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "Q",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "number",
+                "properties": {
+                    "text": "K",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        },
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "face",
+                "properties": {
+                    "text": "Q",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
+            }
+        }
+        ,
+        {
+            "quantity": 1,
+            "card": {
+                "template": "playing_cards",
+                "card_type": "face",
+                "properties": {
+                    "text": "K",
+                    "color": "red",
+                    "small_image": "src/lib/assets/playing_cards/suits/diamond.svg",
+                    "image": "src/lib/assets/playing_cards/suits/diamond.svg"
+                },
+                "dimensions": [125, 175]
             }
         }
     ]

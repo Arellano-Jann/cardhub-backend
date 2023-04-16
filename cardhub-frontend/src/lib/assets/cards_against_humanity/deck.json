@@ -1,5 +1,9 @@
 {
     "deck_type": "cards_against_humanity",
+    "display-properties": {
+        "name": "Cards Against Humanity",
+        "description": "A popular text-based card game consisting of prompt and answer cards."
+    },
     "back_card": {
         "card": {
             "template": "full-image",
@@ -9,8 +13,9 @@
             "dimensions": [127, 176]
         }
     },
-    "cards": [
+    "cards-quantities": [
         {
+            "quantity": 1,
             "card": {
                 "template": "cards_against_humanity",
                 "card_type": "question",
@@ -21,6 +26,7 @@
             }
         },
         {
+            "quantity": 1,
             "card": {
                 "template": "cards_against_humanity",
                 "card_type": "question",
@@ -32,6 +38,7 @@
             }
         },
         {
+            "quantity": 1,
             "card": {
                 "template": "cards_against_humanity",
                 "card_type": "answer",
@@ -43,6 +50,7 @@
             }
         },
         {
+            "quantity": 2,
             "card": {
                 "template": "cards_against_humanity",
                 "card_type": "answer",

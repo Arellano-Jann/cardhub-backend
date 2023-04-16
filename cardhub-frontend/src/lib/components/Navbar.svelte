@@ -1,8 +1,10 @@
 <script>
-    let Home = "https://www.google.com/";
-    let HostJoin = "https://www.amazon.com/";
-    let Search = "https://www.yahoo.com/";
-    let About = "https://www.espn.com/";
+    let Home = "../../home/";
+    let Host = "../../host/";
+    let Join = "../../join/";
+    let Search = "../../play/"; //temporary
+    let About = "../../about/";
+   
     let currentPage = Home;
     function setCurrentPage(page) {
         currentPage = page;
@@ -10,19 +12,11 @@
 </script>
 
 <nav>
-    <link
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <ul class="section-links">
-        <li
-            class="section-link"
-            on:click={() => setCurrentPage(Home)}
-            on:keypress={() => setCurrentPage(Home)}
-            class:selected={currentPage == Home}
-        >
+        <li class="section-link" on:click={() => setCurrentPage(Home)} on:keypress={() => setCurrentPage(Home)} class:selected={currentPage == Home}>
             <a href={Home}>
-                <svg width="100" height="100" viewBox="0 0 2057 1122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="60" height="60" viewBox="0 0 2057 1122" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M188.433 425.277L25.541 543.626C-1.26751 563.103 -7.21038 600.625 12.267 627.434L353.182 1096.66C372.66 1123.47 410.182 1129.41 436.991 1109.94L744.417 886.579C765.632 871.166 773.78 844.453 766.605 820.691L445.448 925.041C398.175 940.401 347.401 914.53 332.041 867.257L188.433 425.277Z" fill="#7C7C7C"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M432 162.105L220.063 230.967C188.548 241.207 171.301 275.057 181.541 306.572L360.771 858.185C371.011 889.7 404.86 906.947 436.375 896.707L797.777 779.281C820.512 771.894 835.821 752.22 838.743 730H522C472.294 730 432 689.706 432 640V162.105Z" fill="#383838"/>
                     <rect x="462" width="500" height="700" rx="60" fill="#D60E26"/>
@@ -38,34 +32,25 @@
                 Home
             </a>
         </li>
-        <li
-            class="section-link"
-            on:click={() => setCurrentPage(HostJoin)}
-            on:keypress={() => setCurrentPage(HostJoin)}
-            class:selected={currentPage == HostJoin}
-        >
-            <a href={HostJoin}>
+        <li class="section-link" on:click={() => setCurrentPage(Host)} on:keypress={() => setCurrentPage(Host)} class:selected={currentPage == Host}>
+            <a href={Host}>
                 <span class="material-icons">person_add</span>
-                Host/Join
+                Host
             </a>
         </li>
-        <li
-            class="section-link"
-            on:click={() => setCurrentPage(Search)}
-            on:keypress={() => setCurrentPage(Search)}
-            class:selected={currentPage == Search}
-        >
+        <li class="section-link" on:click={() => setCurrentPage(Join)} on:keypress={() => setCurrentPage(Join)} class:selected={currentPage == Join}>
+            <a href={Join}>
+                <span class="material-icons">group</span>
+                Join
+            </a>
+        </li>
+        <li class="section-link" on:click={() => setCurrentPage(Search)} on:keypress={() => setCurrentPage(Search)} class:selected={currentPage == Search}>
             <a href={Search}>
                 <span class="material-icons">search</span>
                 Search
             </a>
         </li>
-        <li
-            class="section-link"
-            on:click={() => setCurrentPage(About)}
-            on:keypress={() => setCurrentPage(About)}
-            class:selected={currentPage == About}
-        >
+        <li class="section-link" on:click={() => setCurrentPage(About)} on:keypress={() => setCurrentPage(About)} class:selected={currentPage == About}>
             <a href={About}>
                 <span class="material-icons">info</span>
                 About
@@ -76,7 +61,6 @@
 
 <style lang="css">
     nav {
-        /* position: fixed; */
         display: flex;
         align-items: center;
         justify-content: space-between;

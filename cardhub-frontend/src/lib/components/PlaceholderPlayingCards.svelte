@@ -3,7 +3,7 @@
 </script>
 
 
-<div class="PlaceholderPlayingCards border-2 border-black border-black bg-blue-50"
+<div class="PlaceholderPlayingCards border-2 border-black border-black bg-white"
 	style="width: {card_obj["card"]["dimensions"][0]}px; height: {card_obj["card"]["dimensions"][1]}px"
 >
 	<div class="col"> <!-- left stuff -->
@@ -11,10 +11,11 @@
 			<p class="corner-val col">
 				{card_obj["card"]["properties"]["text"]}
 			</p>
-			<img src={card_obj["card"]["properties"]["small_image"]} alt="small">
+			<img height="10px" width="1000px" preserveAspectRatio="xMinYMin" src={card_obj["card"]["properties"]["small_image"]} alt="small" >
+			<!--<img src={card_obj["card"]["properties"]["small_image"]} alt="small">-->
 		</div>
 	</div>
-	<div class="centerdiv bg-red-100"> <!-- center image-->
+	<div class="centerdiv"> <!-- center image-->
 		<img src={card_obj["card"]["properties"]["image"]} alt="center">
 	</div>
 	<div class="right-col col"> <!-- right stuff -->
@@ -33,6 +34,7 @@
 		grid-template-columns: 1fr 3fr 1fr;
 		border-radius: 6px;
 		padding:3px;
+		overflow:hidden;
 	}
 	.centerdiv {
 		display: flex;
@@ -42,8 +44,8 @@
 	}
 	.corner-val {
 		display:inline-block;
-		font-size: 40px;
-		margin:-15px 0px -15px 0px;
+		font-size: 36px;
+		/*margin:px 0px -15px 0px;*/
 		font-weight:bold;
 	}
 	.right-col {

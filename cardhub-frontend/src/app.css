@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
     --black: #0C0809;
@@ -8,10 +10,11 @@
     --grey: #4A483E;
     --light-grey: #B8BFA8;
     --white: #fff;
-    --global-bg-color: #373737;
+    --global-bg-color: #1e1e1e;
 }
 
 html {
     background-color: var(--global-bg-color);
     color: var(--white);
+    font-family: "Poppins";
 }

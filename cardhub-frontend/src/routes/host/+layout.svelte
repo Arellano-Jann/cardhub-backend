@@ -4,6 +4,9 @@
 
 <style>
 	.center-page-layout {
-		max-width: 600px;
+		padding: 10px;
+		max-width: 650px;
+		margin: auto;
+		background-color: #949494;
 	}
 </style>
